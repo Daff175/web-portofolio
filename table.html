@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Table Html</title>
+</head>
+<style>
+
+    table, th, td{
+      border: 1px solid red;
+    }
+
+    table{
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th{
+      height: 50%;
+    }
+
+    th, td{
+      padding: 15px
+      text-align: center;
+    }
+</style>
+<body>
+  <table border="1">
+    <tr>
+      <!-- menggabungkan beberapa kolom dengan colspan-->
+        <th>No</th>
+        <th>Nama</th>
+        <th>Asal</th>
+    </tr>
+    <tr>
+           <td>1</td>
+           <td>Roy</td>
+           <!--menggabungkan beberapa baris dengan rowspan-->
+           <td rowspan="3">Bandung</td>
+       </tr>
+       <tr>
+           <td>2</td>
+           <td>Si Boy</td>
+           <!--<td>Jakarta</td>-->
+       </tr>
+       <tr>
+           <td>3</td>
+           <td>Roni</td>
+           <!--<td>Surabaya</td>-->
+       </tr>
+</body>
+</html>
