@@ -1,0 +1,125 @@
+<style>
+html, body {
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: 28px;
+    scroll-behavior: smooth;
+}
+
+.MainContainer{
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.ContentContainer{
+    position: relative;
+    display: block;
+    background-color: white;
+    z-index: 1
+}
+
+.Content{
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 75px 0;
+}
+h1{
+    text-align: center;
+}
+p{
+    margin: 75px 0;
+    text-indent: 20px;
+    text-align: justify; 
+}
+img {
+     border-radius: 50%;
+}
+.ParallaxContainer{
+    display: flex;
+    flex: 1 0 auto;
+    position: relative;
+    z-index: -1px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    transform: translateZ(-1px) scale(2);
+    background: url(just-waves.png);
+    background-color: rgb(250, 228, 216);
+}
+.ParrallaxContainer h1{
+    letter-spacing: -15px;
+    font-family: Open Sans;
+    color: white;
+    text-align: center;
+    font-size: 200px;
+    font-weight: 800;
+    line-height: 200px;
+}
+.footer .copy{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+.footer {
+    background-color: #333;
+    padding: 10px;    
+
+</style>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portofolio || Althaaf</title>
+    <link rel="stylesheet" type="text/css" href="styleparalax.css">
+</head>
+<body>
+    <div class="MainContainer">
+        <br>
+        <br>
+        <div class="ParallaxContainer">
+                <img src="img/althaaf.jpg">
+            <br>
+            <h1>
+                Althaaf Ridha Muhammad Zaydaan Batubara
+           </h1>
+        </div>
+        <div class="ContentContainer">
+            <div class="Content">
+                <h1>Biodata diri saya</h1>
+                <br>
+                <h2>
+                    ASSALAMUALAIKUM .....
+                </h2>
+                <p>
+                     Perkenalkan Nama lengkap saya adalah Althaaf Ridha Muhammad Zaydaan Batubara, biasa dipanggil Althaaf. Saya berumur 13 tahun. 
+                     Saya lahir di Bekasi, Jawa Barat.
+                    Saya tinggal di Bekasi Timur.
+                </p>
+                <p>
+                    Status saya adalah seorang pelajar kelas 2 SMP di IDN Boarding School, Jonggol, Bogor, Jawa Barat. Hobi saya adalah bermain game, bermain futsal dan berenang, cita - cita saya adalah menjadi seorang programmer / developer web yang berguna bagi seluruh orang di dunia
+                </p>
+                <h3>
+                   You can find me at :
+                </h3>
+                <p>
+                    Instagram : al.thaaf_
+                </p>
+                <p>
+                    Facebook  : althaaf zaydaan
+                </p>
+                <p>
+                    gitHub    : Althaafzz
+                </p>
+                <p>
+                    gmail.    : althaaf.zaydaan@gmail.com
+                </p>
+                <div class="footer">
+                    <p class="copy"> Portofolio || Althaaf 2019</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
