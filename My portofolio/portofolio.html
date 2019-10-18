@@ -1,0 +1,141 @@
+<style>
+html, body {
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: 28px;
+    scroll-behavior: smooth;
+}
+
+.MainContainer{
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.ContentContainer{
+    position: relative;
+    display: block;
+    background-color: white;
+    z-index: 1
+}
+
+.Content{
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 75px 0;
+}
+h1{
+    text-align: center;
+}
+p{
+    margin: 75px 0;
+    text-indent: 20px;
+    text-align: justify;
+}
+img {
+     border-radius: 100%;
+}
+.ParallaxContainer{
+    display: flex;
+    flex: 1 0 auto;
+    position: relative;
+    z-index: -1px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    transform: translateZ(-1px) scale(2);
+    background: url(floor-tile.png);
+    background-color: rgb(250, 228, 216);
+}
+.ParrallaxContainer h1{
+    letter-spacing: -15px;
+    font-family: Open Sans;
+    color: white;
+    text-align: center;
+    font-size: 200px;
+    font-weight: 800;
+    line-height: 200px;
+}
+.footer .copy{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin: 5px;
+}
+.footer {
+    background-color: #333;
+    padding: 20px;    
+}
+.under p{
+    margin: 25 0px;
+    font-size: 20px;
+}
+.under a{
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+}
+.under a:hover{
+    background-color: white;
+    color: black;
+}
+
+</style>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portofolio || Irsyad</title>
+    <link rel="stylesheet" type="text/css" href="styleparalax.css">
+</head>
+<body background="floor-tile.png">
+    <div class="MainContainer">
+        <br>
+        <br>
+        <div class="ParallaxContainer">
+                <img src="img/Irsyad.jpg">
+            <br>
+            <h1>
+                Irsyad Sholahuddin
+           </h1>
+        </div>
+        <div class="ContentContainer">
+            <div class="Content">
+                <h1>Biodata diri saya</h1>
+                <br>
+                <h3>
+                    ASSALAMUALAIKUM .....
+                </h3>
+                <p>
+                     Perkenalkan Nama lengkap saya adalah Irsyad Sholahuddin, biasa dipanggil Irsyad. Saya berumur 13 tahun. 
+                     Saya lahir di Jakarta Timur, Jakarta.
+                    Saya tinggal di Jakarta Timur.
+                </p>
+                <p>
+                    Status saya adalah seorang pelajar kelas 2 SMP di IDN Boarding School, Jonggol, Bogor, Jawa Barat. Hobi saya adalah bermain game, cita - cita saya adalah menjadi seorang programmer / developer web yang berguna bagi seluruh orang di dunia
+                </p>
+                <hr>
+                <br>
+                <h3>
+                   You can find me at :
+                </h3>
+            <div class="under">
+                <p>
+                    Instagram : @<a href="https://www.instagram.com/irsyad_prime/">Irsyad_prime</a>
+                </p>
+                <p>
+                    gmail : <a href="Irsyadsholahuddin02@gmail.com">Irsyad Sholahuddin</a>
+                </p>
+                <P> 
+                    Contact : 081906301621 
+                </P>
+            </div>
+                <div class="footer">
+                    <p class="copy"> Portofolio || Irsyad 2019</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
